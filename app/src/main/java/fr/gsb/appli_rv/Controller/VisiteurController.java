@@ -117,8 +117,7 @@ public abstract class VisiteurController extends Context {
         fileRequetes.add(requete);
     }
 
-    public void SaisirRapportDeVisite(Context currentActivity){
-
+    public void SaisirRapportDeVisite(String matricule, String praticien, String visite, String bilan, Context currentActivity){
     }
 
     public static VisiteurController getInstance(){

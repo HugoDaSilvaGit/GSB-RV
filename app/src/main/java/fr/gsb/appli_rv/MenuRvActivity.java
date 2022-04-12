@@ -48,7 +48,7 @@ public class MenuRvActivity extends AppCompatActivity {
             public void onClick(View VisiteurView) {
                 Context currentActivity = getApplicationContext();
                 //ACTION
-                VisiteurController.getInstance().SaisirRapportDeVisite(currentActivity);
+                //VisiteurController.getInstance().SaisirRapportDeVisite(currentActivity);
             }
         });
 
